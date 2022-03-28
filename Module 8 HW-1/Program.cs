@@ -7,7 +7,8 @@ namespace Module_8_HW_1
     {
         static void Main(string[] args)
         {
-            string path = "C:\\Users\\Михаил\\Desktop\\f";
+            Console.WriteLine("Enter path to directory");
+            string path = Convert.ToString(Console.ReadLine());
             
             DeleteTheDir.DeleteDir(path);
 
